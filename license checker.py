@@ -7,3 +7,5 @@ def check_status(age, license):
     elif not license == 1:
         print(' Get a license dude!, I will not run')
     return check_status
+check_status(age=input(' What is your age: '), license=input(' Put your thumb on the screen to check license: ' ))
+
